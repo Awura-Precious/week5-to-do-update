@@ -1,7 +1,7 @@
 import { BrowserRouter, Switch, Route} from 'react-router-dom';
-import AppState, { AppContext } from './components/appState';
+import AppState from './components/appState';
 import InputTodo from './components/inputTodo';
-import { useContext,useEffect} from 'react';
+// import { useContext,useEffect} from 'react';
 import SignUp from './pages/signUp';
 import Login from './pages/login';
 import Navbar from './components/navbar';
